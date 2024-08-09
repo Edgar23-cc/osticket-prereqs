@@ -22,9 +22,10 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 - Item 1: Download/Install and enable Internet Information Services (IIS) with CGI, Common HTTP features and IIS Management console.
 - Item 2: Download/Install PHP Manager for IIS, Rewrite Module and create a folder in directory C:\PHP. When that is done you install put in PHP 7.3.8 to that folder.If you can't download the PHP 7.3.8 you can try downloading it through Google Chrome you might have to download it.
-- Item 3: Once you have done step 1 and 2 download/install  vc redist.x86.exe and My SQL 5.5.62. Once you have download set it as Typical setup, Launch configeration wizard( this option will appear after download), Standard configuration, the password would be Password1. Than open IIS but as an admin you want to register the PHP folder from within IIS. When is done you want reload the IIS app. Download osTicket and Extract/Copy the file named UPLOAD to c:-> inetpub-> wwwroot and rename it to osTicket reload IIS again
-- Item 4
-- Item 5
+- Item 3: Once you have done step 1 and 2 download/install  vc redist.x86.exe and My SQL 5.5.62. Once you have download set it as Typical setup, Launch configeration wizard( this option will appear after download), Standard configuration, the password would be Password1. Than open IIS but as an admin you want to register the PHP folder from within IIS. When is done you want reload the IIS app. Download osTicket and Extract/Copy the file named UPLOAD to c:-> inetpub-> wwwroot and rename it to osTicket reload IIS again.
+- Item 4: Once you are done reloading the IIS You want to in the IIS app and go to sites -> default website -> osTicket  on the right you want to click on "Browse *.80" that will open the osTicket installer page. The next you want to do is go back to IIS app and double click on PHP Manager to enable the following extensions: php_imap.dll, php_intl.dll and  php_opcache.dll all this extensions would be in “Enable or disable an extension” and reload the IIS app.
+- Item 5: After you are done with step 4 you can go to "File Explorer-> Windows(C:) -> inetpub -> wwwroot -> osTicket -> include -> ost-sampleconfig.php and rename "ost-sampleconfig.php to ost-config.php". When you finish you want disable inheritance -> remove all and add a new permission -> Everyone -> All, 
+
 
 <h2>Installation Steps</h2>
 
@@ -49,7 +50,7 @@ When your done installing and enable the IIS you can search 127.0.0.1 that will 
   
   Before OsTicket v1.15.8 was installed in IIS
   
-<img src="https://i.imgur.com/aPhuo2G.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/aPhuo2G.png" height="80%" width="80%" alt="Disk Sanitization Steps"https://i.imgur.com/nIrRSOA.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
   <p>
@@ -58,6 +59,20 @@ When your done installing and enable the IIS you can search 127.0.0.1 that will 
 <img src="https://i.imgur.com/nIrRSOA.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
+  
+  OstIcket Installer
+  
+  <img src="https://i.imgur.com/XmPIPFH.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+  <p>
+    
+  Extensions Enabled
+    
+   <img src="https://i.imgur.com/KaLBBP4.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+  <p>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 </p>
 <br />
@@ -67,7 +82,10 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 </p>
 <p>
   <p>
-
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+  <p>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 </p>
 <br />
