@@ -62,7 +62,7 @@ When your done installing and enable the IIS you can search 127.0.0.1 that will 
   
   OstIcket Installer
   
-  <img src="https://i.imgur.com/XmPIPFH.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  <img src="https://i.imgur.com/foeIzYz.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
   <p>
