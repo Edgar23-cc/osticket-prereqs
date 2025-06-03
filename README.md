@@ -84,14 +84,20 @@ When your done installing and enable the IIS you can search 127.0.0.1 that will 
 Whenever you get to installing the osticket in your IIS app you will see like the first image above and when finish you will see just like the second image. Before you install the osticket check if some of the recommendation are enable. If finish install it and proceed setting up your credential with the database you created in Heidi SQL and you may install it so you can begin to use the app.
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+  Administrator's Panel
+  
+<img src="https://i.imgur.com/aXJyamQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
   <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+ Agent's Panel
+ 
+<img src="https://i.imgur.com/CGxB9oP.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
   <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+The Admin can manage their tickets/agents and give them assignment to work through the day but the Agents have see what is priorty to get that done first.
 </p>
 <br />
